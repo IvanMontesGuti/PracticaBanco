@@ -70,7 +70,7 @@ public class Cuenta extends Operaciones{
 		}
 		
 		public void prestamo (Cuenta cuentaDestino, int cantidad) {
-			
+			cuentaDestino.setCantidad(getCantidad()+cantidad);
 		}
 		
 		public void cancelarCuenta(Cuenta cuentaDestino) {
