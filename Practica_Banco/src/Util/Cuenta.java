@@ -77,4 +77,14 @@ public class Cuenta extends Operaciones{
 			cuentaDestino.cancelarCuenta(cuentaDestino);
 			cuentaDestino.estado=false;
 		}
+
+
+
+		@Override
+		public String toString() {
+			return "Cuenta [iban=" + iban + ", cliente=" + cliente + ", cantidad=" + cantidad + ", estado=" + estado
+					+ "]";
+		}
+		
+		
 }

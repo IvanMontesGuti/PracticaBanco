@@ -35,6 +35,11 @@ public class Cliente {
 		public void setEdad(int edad) {
 			this.edad = edad;
 		}
+
+		@Override
+		public String toString() {
+			return  nombre + " " + apellidos + ", cuya edad es " + edad;
+		}
 	    
 	    
 }
